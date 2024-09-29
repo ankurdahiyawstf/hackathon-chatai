@@ -6,7 +6,6 @@ import { getResponoseFromGpt } from "./services/gpt/gptService";
 import router from "./routes";
 
 const app = express();
-connectDb();
 
 app.use(cors());
 app.use(express.json());
