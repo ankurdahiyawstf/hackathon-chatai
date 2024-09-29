@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node build/src/server.js",
-    "start": "ls",
+    "start": "node build/src/server.js",
+    "build": "tsc",
     "dev": "nodemon --exec ts-node ./src/server.ts"
   },
   "engines": {
