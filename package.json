@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node build/src/server.js",
-    "build": "npm install && ./node_modules/.bin/tsc --build tsconfig.json",
+    "build": "tsc",
     "dev": "nodemon --exec ts-node ./src/server.ts"
   },
   "engines": {
