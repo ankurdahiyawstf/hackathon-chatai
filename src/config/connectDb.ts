@@ -9,7 +9,7 @@ const connectDb = () => {
     })
     .catch((err) => {
       console.log("Error connecting Mongodb: " + err);
-    });
+    })
 };
 
 export default connectDb;
