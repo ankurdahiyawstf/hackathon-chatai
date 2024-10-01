@@ -2,7 +2,7 @@
   "name": "zkcross-worker-price",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/src/server.js",
   "scripts": {
     "start": "node build/src/server.js",
     "build": "tsc",
